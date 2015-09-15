@@ -3,16 +3,16 @@ require 'rspec'
 
 class Diamond
 
-  def run(number)
-    if isanumber(number)
-      number
+  def run(letter)
+    if isaletter(letter)
+      letter
     end
   end
 
   private
   
-  def isanumber(number)
-    if !number.is_a? Numeric
+  def isaletter(letter)
+    if !number.is_a? String
       return false
     end
     return true
