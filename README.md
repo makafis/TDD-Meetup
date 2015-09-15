@@ -7,8 +7,10 @@ Given a letter, print a diamond starting with ‘A’ with the supplied letter a
 Given 'C'
 
 return:
+``` ruby
   A
  B B 
 C   C
  B B 
   A  
+```
