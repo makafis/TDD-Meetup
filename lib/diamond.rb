@@ -5,7 +5,7 @@ class Diamond
 
   def run(letter)
     if isaletter(letter)
-      letter
+      letter.capitalize
     end
   end
 
