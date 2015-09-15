@@ -12,7 +12,7 @@ class Diamond
   private
   
   def isaletter(letter)
-    if !number.is_a? String
+    if !letter.is_a? String
       return false
     end
     return true
